@@ -38,11 +38,11 @@
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
-				box-shadow: 0 0 0 1.5em _palette(bg);
+				// box-shadow: 0 0 0 1.5em _palette(bg);
 			}
 
 			&:before {
-				content: '';
+				// content: '';
 				display: block;
 				position: absolute;
 				top: 50%;

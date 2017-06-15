@@ -12,7 +12,7 @@
 
 // Size.
 	$size: (
-		border-radius:		4px,
+		border-radius:		10px,
 		border-width:		1px,
 		element-height:		2.75em,
 		element-margin:		1.5em,
@@ -21,20 +21,20 @@
 
 // Font.
 	$font: (
-		family:				('Source Sans Pro', Helvetica, sans-serif),
+		family:				(Arial, Helvetica Neue, Helvetica, sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				300
 	);
 
 // Palette.
 	$palette: (
-		bg:					#ffffff,
+		bg:					rgba(0, 0, 0, 0.7),
 		bg-alt:				#e1dfe8,
-		fg:					#414f57,
-		fg-bold:			#313f47,
+		fg:					#999999,
+		fg-bold:			#ffffff,
 		fg-light:			#616f77,
 		border:				#c8cccf,
-		accent1:			#ffa596,
+		accent1:			#ffffff,
 		accent2:			#00e4ff,
 		highlight:			#ff7496
 	);
