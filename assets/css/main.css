@@ -126,7 +126,7 @@ a {
     -ms-transition: color 0.2s ease, text-shadow 0.2s ease;
     transition: color 0.2s ease, text-shadow 0.2s ease; }
   a:hover {
-    color: #ff7496; }
+    color: #ffffff; }
 
 strong, b {
   color: #ffffff; }
@@ -228,7 +228,7 @@ textarea {
   input[type="tel"]:focus,
   select:focus,
   textarea:focus {
-    border-color: #ff7496; }
+    border-color: #ffffff; }
 
 .select-wrapper {
   text-decoration: none;
@@ -311,11 +311,11 @@ input[type="radio"] {
       width: 1.65em; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    color: #ff7496;
+    color: #ffffff;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    border-color: #ff7496; }
+    border-color: #ffffff; }
 
 input[type="checkbox"] + label:before {
   border-radius: 10px; }
@@ -410,10 +410,9 @@ ul {
           font-weight: normal;
           text-transform: none !important; }
         ul.icons li a:before {
-          color: rgba(0, 0, 0, 0.7);
-          text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf; }
+          color: #999999; }
         ul.icons li a:hover:before {
-          text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496; }
+          color: #ffffff; }
         ul.icons li a:before {
           position: absolute;
           top: 0;
@@ -425,7 +424,7 @@ ul {
           text-align: center;
           text-indent: 0; }
         ul.icons li a:hover {
-          border-color: #ff7496; }
+          border-color: #ffffff; }
     @media screen and (max-width: 480px) {
       ul.icons li a:before {
         font-size: 1.5rem; } }
@@ -479,8 +478,8 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    border-color: #ff7496;
-    color: #ff7496 !important; }
+    border-color: #ffffff;
+    color: #ffffff !important; }
   input[type="submit"].icon,
   input[type="reset"].icon,
   input[type="button"].icon,
