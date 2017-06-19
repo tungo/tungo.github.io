@@ -1,6 +1,8 @@
 
 ul.projects {
 
+  margin-bottom: 0;
+
   > li {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -21,6 +23,10 @@ ul.projects {
 
     &.text-right {
       text-align: right;
+    }
+
+    img {
+      border: 1px solid #eee;
     }
   }
 }

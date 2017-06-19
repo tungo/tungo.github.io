@@ -2272,17 +2272,21 @@ table.alt tbody tr td {
   .spotlight .image img {
     border-color: rgba(255, 255, 255, 0.35); }
 
-ul.projects > li {
-  padding-top: 30px;
-  padding-bottom: 30px; }
-ul.projects .actions > li {
-  border: none; }
-ul.projects p {
-  min-height: 220px; }
-  ul.projects p.text-left {
-    text-align: left; }
-  ul.projects p.text-right {
-    text-align: right; }
+ul.projects {
+  margin-bottom: 0; }
+  ul.projects > li {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  ul.projects .actions > li {
+    border: none; }
+  ul.projects p {
+    min-height: 220px; }
+    ul.projects p.text-left {
+      text-align: left; }
+    ul.projects p.text-right {
+      text-align: right; }
+    ul.projects p img {
+      border: 1px solid #eee; }
 
 /* Header */
 #header {
