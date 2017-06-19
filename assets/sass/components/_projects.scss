@@ -1,0 +1,26 @@
+
+ul.projects {
+
+  > li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .actions {
+    > li {
+      border: none;
+    }
+  }
+
+  p {
+    min-height: 220px;
+
+    &.text-left {
+      text-align: left;
+    }
+
+    &.text-right {
+      text-align: right;
+    }
+  }
+}
