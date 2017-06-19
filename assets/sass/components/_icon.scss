@@ -54,6 +54,12 @@
 			}
 		}
 
+		&.devicon {
+			&:before {
+				font-family: devicon;
+			}
+		}
+
 		&.style1 {
 			color: _palette(accent1);
 		}

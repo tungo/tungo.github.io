@@ -1813,6 +1813,8 @@ input[type="radio"]:focus + label:before {
       height: 2em;
       text-align: center;
       line-height: 2em; }
+  .icon.devicon:before {
+    font-family: devicon; }
   .icon.style1 {
     color: #efa8b0; }
   .icon.style2 {
@@ -2234,7 +2236,8 @@ table.alt tbody tr td {
     .spotlight .image img {
       display: block;
       border-radius: 100%;
-      width: 16em; }
+      width: 16em;
+      border: 1px solid; }
   @media screen and (max-width: 980px) {
     .spotlight {
       -moz-flex-direction: column-reverse;
@@ -2266,6 +2269,8 @@ table.alt tbody tr td {
 
 .spotlight .image {
   border-color: rgba(255, 255, 255, 0.35); }
+  .spotlight .image img {
+    border-color: rgba(255, 255, 255, 0.35); }
 
 /* Header */
 #header {
@@ -2581,6 +2586,8 @@ table.alt tbody tr td {
     border-color: #dddddd; }
   #main .spotlight .image {
     border-color: #dddddd; }
+    #main .spotlight .image img {
+      border-color: #dddddd; }
   #main > .main {
     padding: 5em 5em 3em 5em ;
     border-top: solid 1px #dddddd; }

@@ -36,6 +36,7 @@
 				display: block;
 				border-radius: 100%;
 				width: 16em;
+				border: 1px solid;
 			}
 		}
 
@@ -81,6 +82,10 @@
 		.spotlight {
 			.image {
 				border-color: _palette($p, border);
+
+				img {
+					border-color: _palette($p, border);
+				}
 			}
 		}
 	}
