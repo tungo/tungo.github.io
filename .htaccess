@@ -1,0 +1,46 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+# non-www to www
+RewriteCond %{HTTP_HOST} ^tungo\.net [NC]
+RewriteRule ^(.*)$ https://www.tungo.net/$1 [R,L]
+
+# http to https
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.tungo.net/$1 [R,L]
+
+
+#Force www:
+#RewriteEngine on
+#RewriteCond %{HTTP_HOST} ^yourdomain\.com [NC]
+#RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301,NC]
+
+#Force non-www:
+#RewriteEngine on
+#RewriteCond %{HTTP_HOST} ^www\.yourdomain\.com [NC]
+#RewriteRule ^(.*)$ http://yourdomain.com/$1 [L,R=301]
+
+#Force force all web traffic to use HTTPS:
+#RewriteEngine On
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://www.yourdomain.com/$1 [R,L]
+
+#Force a specific domain to use HTTPS
+#RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^yourdomain\.com [NC]
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://www.yourdomain.com/$1 [R,L]
+
+#Force specific folder to use HTTPS
+#RewriteEngine On
+#RewriteCond %{SERVER_PORT} 80
+#RewriteCond %{REQUEST_URI} folder
+#RewriteRule ^(.*)$ https://www.yourdomain.com/folder/$1 [R,L]
+
+#Force non HTTPS
+#RewriteEngine On
+#RewriteCond %{HTTPS_HOST} ^yourdomain\.com
+#RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [R,L]
+
+</IfModule>
